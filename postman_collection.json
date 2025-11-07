@@ -1,0 +1,24 @@
+{
+  "info": {
+    "name": "Contact Form API - EZ Labs",
+    "description": "API collection for the Contact Form Application",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [{
+    "name": "Submit Contact Form",
+    "request": {
+      "method": "POST",
+      "header": [{"key": "Content-Type", "value": "application/json"}],
+      "body": {
+        "mode": "raw",
+        "raw": "{\n  \"name\": \"Amit\",\n  \"email\": \"hsatyamrav@gmail.com\",\n  \"phone\": \"908765498\",\n  \"message\": \"This is a test message\"\n}"
+      },
+      "url": {
+        "raw": "https://vernanbackend.ezlab.in/api/contact-us/",
+        "protocol": "https",
+        "host": ["vernanbackend", "ezlab", "in"],
+        "path": ["api", "contact-us", ""]
+      }
+    }
+  }]
+}
