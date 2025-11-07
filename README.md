@@ -67,6 +67,3 @@ npm run build
 
 Import the `postman_collection.json` file into Postman to test the API.
 
-## Author
-
-EZ Labs Assignment Submission
